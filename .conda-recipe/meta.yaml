@@ -4,8 +4,8 @@
 {% else %}
 {% set GIT_VERSION = GIT_DESCRIBE_TAG[1:] %}
 {% endif %}
-{% set PKG_NAME = cookiecutter.project_slug %}
-{% set MODULE_NAME = cookiecutter.project_module_name %}
+{% set PKG_NAME = "micropython-lvgl-helpers" %}
+{% set MODULE_NAME = "lvgl_helpers" %}
 
 # source will be downloaded prior to filling in jinja templates
 # Example assumes that this folder has setup.py in it
